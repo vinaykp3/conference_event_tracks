@@ -19,7 +19,7 @@ sessions = sessions.sort.reverse
 lunch_start = 180
 sessions_end_minutes = 480
 start_time = Time.new(2022, 7, 8, 9, 00)
-i = 0
+i = 1
 tracks = [[], []]
 tracks.each do |track|
 	begin_time = 0
@@ -42,6 +42,6 @@ tracks.each do |track|
 		end
 	end
 	pp "Track#{i}"
-	pp " #{track}"
+	pp track
 	i = i+1
 end
